@@ -39,6 +39,25 @@ main .flex .peligroso {
   border-color: red;
 }
 
+main .flex .cuidado {
+  border-color: orange;
+}
+
+main .flex .ojito {
+  border-color: yellow;
+}
+
+main .flex .suavecito {
+  border-color: green;
+}
+
+main .flex .docil {
+  border-color: lightblue;
+}
+
+
+
+
 @media(min-width: 768px) {
   main .flex article {
     width: calc(50% - 10px);
