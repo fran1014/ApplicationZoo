@@ -31,8 +31,12 @@ main .flex {
 
 main .flex article {
   width: 100%;
-  border: 2px solid black;
+  border: 5px solid;
   padding: 10px;
+}
+
+main .flex .peligroso {
+  border-color: red;
 }
 
 @media(min-width: 768px) {
