@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-bottom: 2px solid tomato;
+  margin-bottom: 20px;
+}
+
+main .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+main .flex article {
+  width: 100%;
+  border: 5px solid;
+  padding: 10px;
+}
+
+main .flex article figcaption {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+ul {
+  list-style: none;
+}
+
+main .flex .peligroso {
+  border: 5px solid red;
+}
+
+main .flex .cuidado {
+  border: 5px solid orange;
+}
+
+main .flex .ojito {
+  border: 5px solid yellow;
+}
+
+main .flex .suavecito {
+  border: 5px solid green;
+}
+
+main .flex .docil {
+  border: 5px solid lightblue;
+}
+
+
+
+
+@media(min-width: 768px) {
+  main .flex article {
+    width: calc(50% - 10px);
+  }
+
+}
+
+@media(min-width: 1004px) {
+  main .flex article {
+    width: calc(33.333% - 10px);
+  }
+
+}
